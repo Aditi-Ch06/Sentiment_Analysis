@@ -148,6 +148,7 @@ def predict_sentiment(text):
 def home():
     return jsonify({"message": "Flask app is running!"})
 
+
 @app.route('/predict', methods=['POST','GET'])
 def predict():
     try:
